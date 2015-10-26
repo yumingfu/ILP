@@ -3,22 +3,24 @@
 <HEAD>
     <meta charset="utf-8">
     <title>
-        ILP Course
+        ILP Course1
     </title>
-</HEAD>
+   </HEAD>
+    <link rel="stylesheet"  href="{{site.baseurl}}/css/common.css">
+
 
 <body>
 	
 	<header>
 		<strong>ILP Course</strong>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="news.html">News</a></li>
-
-			</ul>
-		</nav>
+		{% include nav.html %}
 	</header>
+    <footer>
+    	<strong>ILP Course</strong>
+    	{% include nav.html %}
+    	@2015 DCU ILP course
+    </footer>
+
 	{{content}}
 </body>
 </html>
