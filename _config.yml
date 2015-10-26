@@ -1,0 +1,5 @@
+ markdown: redcarpet
+ baseurl: /ILP
+ #chose to ignore certain file 
+
+ exclude : ["READ.md"]
